@@ -22,6 +22,7 @@ androidConfig {
     }
 }
 
+
 kotlinJvmCompilerOptions {
     jvmTarget.set(JvmTarget.fromTarget(projectJavaVersion.toString()))
 //    freeCompilerArgs.add("-Xjdk-release=${projectJavaVersion}")
